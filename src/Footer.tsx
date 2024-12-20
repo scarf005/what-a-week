@@ -7,6 +7,7 @@ const authorURL = "https://www.pixiv.net/users/86417779"
 const Attribution = () => {
   switch (userLocale) {
     case "ko":
+    case "ko-KR":
       return (
         <p>
           작가: <a href={authorURL}>Maven</a>
