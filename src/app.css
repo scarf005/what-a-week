@@ -1,0 +1,57 @@
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img[src="./kanna.png"] {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+#dialogue {
+    position: relative;
+}
+
+#kanna,
+#mob {
+    z-index: 100;
+    position: absolute;
+    text-transform: uppercase;
+    line-height: 50%;
+}
+
+#kanna {
+    font-size: min(2.5rem, 4vw);
+    top: 6%;
+    left: 30%;
+}
+
+#mob {
+    font-size: min(1.75rem, 2.5vw);
+    top: 17%;
+    left: 18%;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    background-color: #f00;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+time {
+    font-size: min(2rem, 4vw);
+}
+
+footer {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
