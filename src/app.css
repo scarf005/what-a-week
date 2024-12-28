@@ -21,6 +21,7 @@ img[src="./kanna.png"] {
     position: absolute;
     text-transform: uppercase;
     line-height: 50%;
+    color: black;
 }
 
 #kanna {
